@@ -8,12 +8,12 @@ print(GiroKonto.__doc__)
 
 
 # Konten anlegen
-a = Konto("Emil Braun")
-b = Konto("Helga Schmitt", 42)
-c = Konto()
+a = GiroKonto("Emil Braun")
+b = GiroKonto("Helga Schmitt", 42)
+c = GiroKonto()
 
-d = Konto.fromname("Maexle Maximalius")
-e = Konto.fromnamemitersteinzahlung(ersteinzahlung=235, name="Lieschen Mueller")
+d = GiroKonto.fromname("Maexle Maximalius")
+e = GiroKonto.fromnamemitersteinzahlung(ersteinzahlung=235, name="Lieschen Mueller")
 
 g = GiroKonto.fromnamemitersteinzahlung(ersteinzahlung=1235, name="Girokonto Man")
 
